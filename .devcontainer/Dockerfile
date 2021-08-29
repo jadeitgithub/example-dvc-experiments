@@ -12,4 +12,6 @@ RUN cd /etc/apt/sources.list.d \
  && apt-get clean \
  && rm --recursive --force /var/lib/apt/lists/*
 
+COPY library-scripts/github-debian.sh /tmp/library-scripts/
+RUN bash /tmp/library-scripts/github-debian.sh
 

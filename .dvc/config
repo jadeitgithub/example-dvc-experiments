@@ -1,4 +1,8 @@
 [core]
     remote = storage
+[cache]
+    type = "hardlink,symlink"
 ['remote "storage"']
     url = https://remote.dvc.org/example-dvc-experiments
+['remote "cloud_remote"']
+    url = gdrive://1-a-nh04tASNVKKM65g-BhwngZbKcGkPv

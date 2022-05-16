@@ -1,12 +1,11 @@
 stages:
   train:
-    cmd: python3 src/train.py
+    cmd: python src/train.py --force
     deps:
     - data
     - src
     params:
-    - model
-    - train
+    - params.yaml:
     outs:
     - models
     metrics:

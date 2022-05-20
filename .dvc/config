@@ -1,2 +1,2 @@
-[cache]
-    type = "hardlink,symlink"
+['remote "cloud_remote"']
+    url = gdrive://1-a-nh04tASNVKKM65g-BhwngZbKcGkPv

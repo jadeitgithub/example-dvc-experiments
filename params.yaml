@@ -1,5 +1,5 @@
 train:
-  epochs: 8
+  epochs: 12
 model: 
-  conv_units: 10
+  conv_units: 16
 
